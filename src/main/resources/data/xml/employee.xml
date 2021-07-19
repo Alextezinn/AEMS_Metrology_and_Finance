@@ -1,0 +1,27 @@
+<main>
+   <object class="ru.sfedu.aems.beans.Employee" id="20">
+      <Name>Den</Name>
+      <Salary>12000.0</Salary>
+      <TypeEmployee>JUNIOR_EMPLOYEE</TypeEmployee>
+   </object>
+   <object class="ru.sfedu.aems.beans.Employee" id="21">
+      <Name>Nate</Name>
+      <Salary>11000.0</Salary>
+      <TypeEmployee>SENIOR_EMPLOYEE</TypeEmployee>
+   </object>
+   <object class="ru.sfedu.aems.beans.Employee" id="22">
+      <Name>Vlad</Name>
+      <Salary>12400.0</Salary>
+      <TypeEmployee>JUNIOR_EMPLOYEE</TypeEmployee>
+   </object>
+   <object class="ru.sfedu.aems.beans.Employee" id="23">
+      <Name>Vova</Name>
+      <Salary>13600.0</Salary>
+      <TypeEmployee>SENIOR_EMPLOYEE</TypeEmployee>
+   </object>
+   <object class="ru.sfedu.aems.beans.Employee" id="24">
+      <Name>Ira</Name>
+      <Salary>12200.0</Salary>
+      <TypeEmployee>JUNIOR_EMPLOYEE</TypeEmployee>
+   </object>
+</main>

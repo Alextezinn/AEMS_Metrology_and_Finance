@@ -1,0 +1,4 @@
+ID,MEASUREMENTERROR,MODEL,NAME,POWER
+44,0.001,U000,Inductive appliances,3.5
+45,0.001,U001,Round meters,4.0
+46,0.002,U002,Profilers,4.5

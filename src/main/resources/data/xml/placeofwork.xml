@@ -1,0 +1,17 @@
+<main>
+   <object class="ru.sfedu.aems.beans.PlaceOfWork" id="30">
+      <Name>VNII Gradient</Name>
+   </object>
+   <object class="ru.sfedu.aems.beans.PlaceOfWork" id="31">
+      <Name>RNIIRS</Name>
+   </object>
+   <object class="ru.sfedu.aems.beans.PlaceOfWork" id="32">
+      <Name>Russian Helicopter Holding</Name>
+   </object>
+   <object class="ru.sfedu.aems.beans.PlaceOfWork" id="33">
+      <Name>Gazprom space systems</Name>
+   </object>
+   <object class="ru.sfedu.aems.beans.PlaceOfWork" id="34">
+      <Name>Sri of space optics</Name>
+   </object>
+</main>

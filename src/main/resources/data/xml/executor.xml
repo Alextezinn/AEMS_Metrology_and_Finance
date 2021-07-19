@@ -1,0 +1,17 @@
+<main>
+   <object class="ru.sfedu.aems.beans.Executor" id="60">
+      <PhoneNumber>79999999999</PhoneNumber>
+   </object>
+   <object class="ru.sfedu.aems.beans.Executor" id="61">
+      <PhoneNumber>79999999998</PhoneNumber>
+   </object>
+   <object class="ru.sfedu.aems.beans.Executor" id="62">
+      <PhoneNumber>79999999997</PhoneNumber>
+   </object>
+   <object class="ru.sfedu.aems.beans.Executor" id="63">
+      <PhoneNumber>79999999996</PhoneNumber>
+   </object>
+   <object class="ru.sfedu.aems.beans.Executor" id="64">
+      <PhoneNumber>79999999995</PhoneNumber>
+   </object>
+</main>

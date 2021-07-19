@@ -1,0 +1,37 @@
+<main>
+   <object class="ru.sfedu.aems.beans.HeadOfDepartment" id="50">
+      <Executor id="60">
+         <PhoneNumber>79999999999</PhoneNumber>
+      </Executor>
+      <Name>Micha</Name>
+      <Salary>30000.0</Salary>
+   </object>
+   <object class="ru.sfedu.aems.beans.HeadOfDepartment" id="51">
+      <Executor id="61">
+         <PhoneNumber>79999999998</PhoneNumber>
+      </Executor>
+      <Name>Nicola</Name>
+      <Salary>35000.0</Salary>
+   </object>
+   <object class="ru.sfedu.aems.beans.HeadOfDepartment" id="52">
+      <Executor id="62">
+         <PhoneNumber>79999999997</PhoneNumber>
+      </Executor>
+      <Name>Dima</Name>
+      <Salary>28000.0</Salary>
+   </object>
+   <object class="ru.sfedu.aems.beans.HeadOfDepartment" id="53">
+      <Executor id="63">
+         <PhoneNumber>79999999996</PhoneNumber>
+      </Executor>
+      <Name>Artem</Name>
+      <Salary>43000.0</Salary>
+   </object>
+   <object class="ru.sfedu.aems.beans.HeadOfDepartment" id="54">
+      <Executor id="64">
+         <PhoneNumber>79999999995</PhoneNumber>
+      </Executor>
+      <Name>Nasta</Name>
+      <Salary>39000.0</Salary>
+   </object>
+</main>

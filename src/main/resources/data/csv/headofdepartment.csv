@@ -1,0 +1,6 @@
+EXECUTOR,ID,NAME,SALARY
+"Executor{id=60, phoneNumber='79999999999'}",50,Micha,30000.0
+"Executor{id=61, phoneNumber='79999999998'}",51,Nicola,35000.0
+"Executor{id=62, phoneNumber='79999999997'}",52,Dima,28000.0
+"Executor{id=63, phoneNumber='79999999996'}",53,Artem,43000.0
+"Executor{id=64, phoneNumber='79999999995'}",54,Nasta,39000.0

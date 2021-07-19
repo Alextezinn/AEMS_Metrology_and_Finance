@@ -1,0 +1,17 @@
+<main>
+   <object class="ru.sfedu.aems.beans.Customer" id="10">
+      <Name>Alex</Name>
+   </object>
+   <object class="ru.sfedu.aems.beans.Customer" id="11">
+      <Name>Anna</Name>
+   </object>
+   <object class="ru.sfedu.aems.beans.Customer" id="12">
+      <Name>John</Name>
+   </object>
+   <object class="ru.sfedu.aems.beans.Customer" id="13">
+      <Name>Jack</Name>
+   </object>
+   <object class="ru.sfedu.aems.beans.Customer" id="14">
+      <Name>Matthew</Name>
+   </object>
+</main>

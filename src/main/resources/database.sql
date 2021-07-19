@@ -1,0 +1,71 @@
+CREATE TABLE IF NOT EXISTS Customer(
+    id BIGINT NOT NULL PRIMARY KEY,
+    name VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS Employee(
+    id BIGINT NOT NULL PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    salary DOUBLE NOT NULL,
+    typeEmployee VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS PlaceOfWork(
+    id BIGINT NOT NULL PRIMARY KEY,
+    name VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS ElectricalMeasurement(
+    id BIGINT NOT NULL PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    measurementError DOUBLE NOT NULL,
+    model VARCHAR(30) NOT NULL,
+    power DOUBLE NOT NULL,
+);
+
+CREATE TABLE IF NOT EXISTS MechanicalMeasurement(
+    id BIGINT NOT NULL PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    measurementError DOUBLE NOT NULL,
+    model VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS Executor(
+    id BIGINT NOT NULL PRIMARY KEY,
+    phoneNumber VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS HeadOfDepartment(
+    id BIGINT NOT NULL PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    salary DOUBLE NOT NULL,
+    idExecutor BIGINT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS Outfit(
+    id BIGINT NOT NULL PRIMARY KEY,
+    dateStartWork DATE,
+    completionDate DATE,
+    idExecutor BIGINT NOT NULL,
+    idPlaceWork BIGINT NOT NULL,
+    idCustomer BIGINT NOT NULL,
+    idMeansOfMeasurement BIGINT NOT NULL,
+    typeOfWork VARCHAR(50) NOT NULL,
+    statusWork VARCHAR(50) NOT NULL,
+    idEmployees VARCHAR(50) NOT NULL,
+
+    FOREIGN KEY (idExecutor) REFERENCES Executor(id) ON DELETE CASCADE,
+    FOREIGN KEY (idPlaceWork) REFERENCES PlaceOfWork(id) ON DELETE CASCADE,
+    FOREIGN KEY (idCustomer) REFERENCES Customer(id) ON DELETE CASCADE,
+);
+
+
+
+
+
+
+
+
+
+
+

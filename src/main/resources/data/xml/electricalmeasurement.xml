@@ -1,0 +1,20 @@
+<main>
+   <object class="ru.sfedu.aems.beans.ElectricalMeasurement" id="44">
+      <Name>Inductive appliances</Name>
+      <MeasurementError>0.001</MeasurementError>
+      <Model>U000</Model>
+      <Power>3.5</Power>
+   </object>
+   <object class="ru.sfedu.aems.beans.ElectricalMeasurement" id="45">
+      <Name>Round meters</Name>
+      <MeasurementError>0.001</MeasurementError>
+      <Model>U001</Model>
+      <Power>4.0</Power>
+   </object>
+   <object class="ru.sfedu.aems.beans.ElectricalMeasurement" id="46">
+      <Name>Profilers</Name>
+      <MeasurementError>0.002</MeasurementError>
+      <Model>U002</Model>
+      <Power>4.5</Power>
+   </object>
+</main>

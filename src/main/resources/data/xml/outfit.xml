@@ -1,0 +1,34 @@
+<main>
+   <object class="ru.sfedu.aems.beans.Outfit" id="2">
+      <Executor id="63">
+         <PhoneNumber>79999999996</PhoneNumber>
+      </Executor>
+      <MeasurementInstrument class="ru.sfedu.aems.beans.ElectricalMeasurement" id="45">
+         <Name>Round meters</Name>
+         <MeasurementError>0.001</MeasurementError>
+         <Model>U001</Model>
+         <Power>4.0</Power>
+      </MeasurementInstrument>
+      <StatusWork>ESTABLISHED</StatusWork>
+      <PlaceWork id="32">
+         <Name>Russian Helicopter Holding</Name>
+      </PlaceWork>
+      <TypeWork>CALIBRATION_SI</TypeWork>
+      <ListEmployee class="java.util.ArrayList">
+         <employee id="22">
+            <Name>Vlad</Name>
+            <Salary>12400.0</Salary>
+            <TypeEmployee>JUNIOR_EMPLOYEE</TypeEmployee>
+         </employee>
+         <employee id="23">
+            <Name>Vova</Name>
+            <Salary>13600.0</Salary>
+            <TypeEmployee>SENIOR_EMPLOYEE</TypeEmployee>
+         </employee>
+      </ListEmployee>
+      <DateStartWork>2021-03-12 01:43:33.243 MSK</DateStartWork>
+      <Customer id="12">
+         <Name>John</Name>
+      </Customer>
+   </object>
+</main>

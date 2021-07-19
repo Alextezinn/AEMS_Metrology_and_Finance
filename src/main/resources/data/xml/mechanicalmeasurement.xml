@@ -1,0 +1,22 @@
+<main>
+   <object class="ru.sfedu.aems.beans.MechanicalMeasurement" id="40">
+      <Name>Calipers</Name>
+      <MeasurementError>0.01</MeasurementError>
+      <Model>X003</Model>
+   </object>
+   <object class="ru.sfedu.aems.beans.MechanicalMeasurement" id="41">
+      <Name>Micrometer</Name>
+      <MeasurementError>0.01</MeasurementError>
+      <Model>X000</Model>
+   </object>
+   <object class="ru.sfedu.aems.beans.MechanicalMeasurement" id="42">
+      <Name>Probes</Name>
+      <MeasurementError>0.011</MeasurementError>
+      <Model>X001</Model>
+   </object>
+   <object class="ru.sfedu.aems.beans.MechanicalMeasurement" id="43">
+      <Name>Lever brackets</Name>
+      <MeasurementError>0.012</MeasurementError>
+      <Model>X002</Model>
+   </object>
+</main>
